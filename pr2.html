@@ -4,23 +4,19 @@
 	</header>
 	<body>
 		<form>
-			<section>
-				<h3>Регистрация</h3>
-				<hr size="1" noshade>
-			</section>
-			<section>
-				<input autocomplete="off" type='text' size="19" placeholder="Имя" pattern="[A-Za-zА-Яа-яЁё]{2,10}" required ><br>
-				<input autocomplete="on" type='text' size="19" placeholder="Фамилия" pattern="[A-Za-zА-Яа-яЁё]{2,14}" required >
-				<p>
-					Пол:
-					<input autocomplete="on" type='radio' size="9" name='sex' value="man">муж
-					<input autocomplete="on" type='radio' name='sex' value="female">жен
-				</p>
-				<input autocomplete="on" size="19" type='text' min="0" placeholder="Ваш возраст" pattern="^[ 0-9]+$" ><br>
-				<input autocomplete="on" type='email' size="19" placeholder="Ваш email" required ><br>
-				<input autocomplete="off" type='password' size="19" placeholder="password" required pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,})" maxlength="14"><br>
-				<input type='button' size="19" value="Зарегистрироваться">
-			</section>
+			<h3>Регистрация</h3>
+			<hr size="1" noshade>
+			<input autocomplete="off" type='text' size="19" placeholder="Имя" pattern="[A-Za-zА-Яа-яЁё]{2,10}" required ><br>
+			<input autocomplete="on" type='text' size="19" placeholder="Фамилия" pattern="[A-Za-zА-Яа-яЁё]{2,14}" required >
+			<p>
+				Пол:
+				<input autocomplete="on" type='radio' size="9" name='sex' value="man">муж
+				<input autocomplete="on" type='radio' name='sex' value="female">жен
+			</p>
+			<input autocomplete="on" size="19" type='text' min="0" placeholder="Ваш возраст" pattern="^[ 0-9]+$" ><br>
+			<input autocomplete="on" type='email' size="19" placeholder="Ваш email" required ><br>
+			<input autocomplete="off" type='password' size="19" placeholder="password" required pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,})" maxlength="14"><br>
+			<button type='submit' >Зарегистрироваться</button>
 		</form>
 	</body>
 </html>
