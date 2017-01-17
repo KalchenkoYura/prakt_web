@@ -1,0 +1,24 @@
+﻿<html>
+	<header>
+		<link href="css.css" rel="stylesheet" type="text/css" />
+	</header>
+	<body>
+			<section>
+				<h3>Регистрация</h3>
+				<hr size="1" noshade>
+			</section>
+			<section>
+				<input autocomplete="off" type='text' size="19" placeholder="Имя" pattern="[A-Za-zА-Яа-яЁё]{2,10}" required onfocus="if (this.value == 'Имя') {this.value=''}" onBlur="if (this.value == '') {this.value='Имя'}"><br>
+				<input autocomplete="on" type='text' size="19" placeholder="Фамилия" pattern="[A-Za-zА-Яа-яЁё]{2,14}" required onfocus="if (this.value == 'Фамилия') {this.value=''}" onBlur="if (this.value == '') {this.value='Фамилия'}">
+				<p>
+					Пол:
+					<input autocomplete="on" type='radio' size="9" name='sex' value="man">муж
+					<input autocomplete="on" type='radio' name='sex' value="female">жен
+				</p>
+				<input autocomplete="on" size="19" type='text' min="0" placeholder="Ваш возраст" pattern="^[ 0-9]+$" onfocus="if (this.value == 'Ваш возраст') {this.value=''}" onBlur="if (this.value == '') {this.value='Ваш возраст'}"><br>
+				<input autocomplete="on" type='email' size="19" placeholder="Ваш email" required onfocus="if (this.value == 'Ваш email') {this.value=''}" onBlur="if (this.value == '') {this.value='Ваш email'}"><br>
+				<input autocomplete="off" type='password' size="19" placeholder="password" required onfocus="if (this.value == 'password') {this.value=''}" onBlur="if (this.value == '') {this.value='password'}"><br>
+				<input type='button' size="19" value="Зарегистрироваться">
+			</section>
+	</body>
+</html>

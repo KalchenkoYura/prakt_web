@@ -1,0 +1,55 @@
+section
+{
+	text-align:center;
+	margin:auto;
+	font-family:Arial;
+	width: 230px;
+	border: 1px solid #ddd;
+}
+
+section:first-of-type
+{
+	padding:0;
+	font-weight:bold;
+	border-radius:0 5px 0 0;
+	text-align:center;
+	color:#fff;
+	background-color: #3a74a7;
+}
+
+input[type='button']
+{
+	padding:2px;
+	background-color:#fac04a;
+	border-radius:5px;
+	font-weight:bold;
+	color:#000;
+	margin:2px auto;
+}
+
+input[type='password']
+{
+	border-radius:0 0 2px 2px;
+	margin:0 0 10px;
+}
+
+input:first-of-type
+{
+	border-radius: 2px 2px 0 0;
+	margin: 10px 0 0;
+}
+
+input
+{
+	padding:5px;
+	border: 1px solid #d6d6d6;
+}
+
+
+hr
+{
+	margin:3px  auto;
+	color:#000;
+	border-top: 3px dashed black;
+	border-top-width:inherit;
+}
