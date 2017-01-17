@@ -1,5 +1,7 @@
-section
+form
 {
+	padding:auto;
+	border-radius:0 5px 0 0;
 	text-align:center;
 	margin:auto;
 	font-family:Arial;
@@ -7,49 +9,49 @@ section
 	border: 1px solid #ddd;
 }
 
-section:first-of-type
+form>h3:only-of-type
 {
-	padding:0;
+	margin:auto;
 	font-weight:bold;
-	border-radius:0 5px 0 0;
-	text-align:center;
 	color:#fff;
 	background-color: #3a74a7;
 }
 
-input[type='button']
+form>hr:only-of-type
+{
+	background-color: #3a74a7;
+	margin: auto;
+	color:#000;
+	border-top: 3px dashed black;
+	border-top-width:inherit;
+}
+
+form button
 {
 	padding:2px;
 	background-color:#fac04a;
-	border-radius:5px;
+	border-radius:5px ;
 	font-weight:bold;
 	color:#000;
 	margin:2px auto;
+	border: 1px solid #c1711b;
 }
 
-input[type='password']
+form input:last-of-type
 {
+
 	border-radius:0 0 2px 2px;
 	margin:0 0 10px;
 }
 
-input:first-of-type
+form input:first-of-type
 {
 	border-radius: 2px 2px 0 0;
 	margin: 10px 0 0;
 }
 
-input
+form input
 {
 	padding:5px;
 	border: 1px solid #d6d6d6;
-}
-
-
-hr
-{
-	margin:3px  auto;
-	color:#000;
-	border-top: 3px dashed black;
-	border-top-width:inherit;
 }
