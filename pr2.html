@@ -18,7 +18,7 @@
 				</p>
 				<input autocomplete="on" size="19" type='text' min="0" placeholder="Ваш возраст" pattern="^[ 0-9]+$" ><br>
 				<input autocomplete="on" type='email' size="19" placeholder="Ваш email" required ><br>
-				<input autocomplete="off" type='password' size="19" placeholder="password" required pattern="\D{8,}" pattern="^[ 0-9]{1,}" pattern="[A-Z]{1,}"  pattern="[a-z]{1,}" data-min-length="8" maxlength="14"><br>
+				<input autocomplete="off" type='password' size="19" placeholder="password" required pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,})" maxlength="14"><br>
 				<input type='button' size="19" value="Зарегистрироваться">
 			</section>
 		</form>
