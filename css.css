@@ -35,6 +35,7 @@ form button
 	color:#000;
 	margin:2px auto;
 	border: 1px solid #c1711b;
+	width:175px;
 }
 
 form input:last-of-type
