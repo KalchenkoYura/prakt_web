@@ -9,7 +9,7 @@ form
 	border: 1px solid #ddd;
 }
 
-form>h3:only-of-type
+form>h5:only-of-type
 {
 	margin:auto;
 	font-weight:bold;
