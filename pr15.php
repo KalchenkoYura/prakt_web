@@ -3,10 +3,10 @@ function isNum ($value)
 {
 	if(gettype($value)==gettype("string")){
 		$value = preg_replace("/[^0-9]/", '', $value);
-		echo (float)($value) . "<br>";
+		echo ($value) . "<br>";
 	}else{
     if (is_numeric($value)) {
-        echo (float)($value) . "<br>";
+        echo ($value) . "<br>";
     } else {
         echo 'false';
     }}
